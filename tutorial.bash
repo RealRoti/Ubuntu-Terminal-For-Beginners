@@ -11,7 +11,7 @@ sudo apt-get --purge remove <nome>
 #per eliminare quelli non indispensabili
 sudo apt autoremove
 #per aggiornare 
-sudo apt update
+sudo apt upgrade
 #per pulire la cache
 sudo apt-get clean
 
