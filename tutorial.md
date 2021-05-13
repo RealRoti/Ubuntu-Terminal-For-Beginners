@@ -29,7 +29,7 @@ Per pulire la cache usa `sudo apt-get clean`.
 Come avrete notato, spesso utilizziamo il comando "apt". Questo è resposnabile dell'installazione, rimozione e agiornamento dei software nel sistema. 
 
 ## 📂 2. Lavorare con i file
-### *Eliminare, spostare, copiare files*
+### 2.1 Copiare files
 Anche in questo caso ti sembrerà una montagna insormontabile, ma fidati che anche il secondo punto lo esauriremo in fretta.
 
 Prima di tutto, spostati tramite linea di comando nella directory dove si trovano i file su cui vuoi lavorare. Usa `cd /home/la_tua_directory` per farlo. A questo punto ti trovi nella cartella, nell'esempio che stai per vedere si trova il file "my_file.txt".
@@ -57,4 +57,9 @@ Addirittura puoi copiare una cartella o sottocartella: `cp –R /documents /new_
      
      –U update: copia solo se l'origine è più recente della destinazione.`
      
-  
+### 2.2 Spostare files
+Per spostare un file lancia `mv vecchiadirectory nuovadirectory`.
+
+### 2.3 Cancellare files
+Per eliminare un file o più digita `rm my_file.txt`.
+Più info ![qui](https://www.cyberciti.biz/faq/how-to-delete-and-remove-files-on-ubuntu-linux/).
