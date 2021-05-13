@@ -44,9 +44,17 @@ Puoi anche copiare più file insieme: `cp my_file.txt my_file2.txt my_file3.txt 
 Addirittura puoi copiare una cartella o sottocartella: `cp –R /documents /new_directory`
 
 **Opzioni addizionali**
-     -V verbose: mostra lo stato di avanzamento di più file copiati
+      
      –P conserva: mantiene gli stessi attributi, come la data di creazione e i permessi dei file
+     
      –F force: forza la copia eliminando prima un file esistente
+    
+     -V verbose: mostra lo stato di avanzamento di più file copiati
+     
      –I interattivo: richieste di conferma, altamente consigliato
+     
      –R ricorsivo: copia tutti i file e le sottocartelle in una directory
-     –U update: copia solo se l'origine è più recente della destinazione.
+     
+     –U update: copia solo se l'origine è più recente della destinazione.`
+     
+  
