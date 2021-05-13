@@ -1,4 +1,4 @@
-# Ubuntu's terminal tutorial
+# Tutorial per principianti del Terminale Ubuntu/Debian
 Ok, cominciamo.
 
 Innanzitutto, potrebbe esserti utile sapere che puoi richiamare il terminale anche premendo CTRL+ALT+T.
@@ -28,3 +28,17 @@ Per pulire la cache usa `sudo apt-get clean`.
 
 Come avrete notato, spesso utilizziamo il comando "apt". Questo è resposnabile dell'installazione, rimozione e agiornamento dei software nel sistema. 
 
+## 📂 2. Lavorare con i file
+### *Eliminare, spostare, copiare files*
+Anche in questo caso ti sembrerà una montagna insormontabile, ma fidati che anche il secondo punto lo esauriremo in fretta.
+
+Prima di tutto, spostati tramite linea di comando nella directory dove si trovano i file su cui vuoi lavorare. Usa `cd /home/la_tua_directory` per farlo. A questo punto ti trovi nella cartella, nell'esempio che stai per vedere si trova il file "my_file.txt".
+- Creare copie dei file
+
+Il comando `cp my_file.txt my_file2.txt` crea una copia del file "my_file.txt" e la rinomina in "my_file2.txt"
+- Spostare i file copiandoli in un'altra posizione
+
+Per farlo, digita `cp my_file.txt /directory_nuova`.
+
+Puoi anche copiare più file insieme: `cp my_file.txt my_file2.txt my_file3.txt /new_directory`.
+Addirittura puoi copiare una cartella o sottocartella: `cp –R /documents /new_directory`
