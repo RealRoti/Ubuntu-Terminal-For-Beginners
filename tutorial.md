@@ -42,3 +42,11 @@ Per farlo, digita `cp my_file.txt /directory_nuova`.
 
 Puoi anche copiare più file insieme: `cp my_file.txt my_file2.txt my_file3.txt /new_directory`.
 Addirittura puoi copiare una cartella o sottocartella: `cp –R /documents /new_directory`
+
+**Opzioni addizionali**
+     -V verbose: mostra lo stato di avanzamento di più file copiati
+     –P conserva: mantiene gli stessi attributi, come la data di creazione e i permessi dei file
+     –F force: forza la copia eliminando prima un file esistente
+     –I interattivo: richieste di conferma, altamente consigliato
+     –R ricorsivo: copia tutti i file e le sottocartelle in una directory
+     –U update: copia solo se l'origine è più recente della destinazione.
