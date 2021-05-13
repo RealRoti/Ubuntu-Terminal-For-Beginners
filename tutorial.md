@@ -62,4 +62,4 @@ Per spostare un file lancia `mv vecchiadirectory nuovadirectory`.
 
 ### 2.3 Cancellare files
 Per eliminare un file o più digita `rm my_file.txt`.
-Più info ![qui](https://www.cyberciti.biz/faq/how-to-delete-and-remove-files-on-ubuntu-linux/).
+Info e avvertenze ![qui](https://www.cyberciti.biz/faq/how-to-delete-and-remove-files-on-ubuntu-linux/).
